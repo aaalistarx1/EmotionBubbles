@@ -1,0 +1,116 @@
+:root { 
+  --black: #000000;
+  --black-haze: #f6f6f6;
+  --bubble-gum: #ffd4ff;
+  --cornflower: #99d6eb;
+  --granny-smith-apple: #a4f9a2;
+  --macaroni-cheese: #ffbc8b;
+  --paris-daisy: #fff870;
+  --sonic-silver: #777777;
+  --sweet-pink: #fda79c;
+  --white: #ffffff;
+  --woodsmoke: #0f0e0e;
+ 
+  --font-size-l: 12px;
+  --font-size-m: 11px;
+  --font-size-xl: 18px;
+  --font-size-xxl: 20px;
+  --font-size-xxxl: 24px;
+  --font-size-xxxxl: 28px;
+ 
+  --font-family-krona_one: "Krona One", Helvetica;
+}
+.kronaone-normal-white-11px {
+  color: var(--white);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-white-11px-2 {
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-macaroni-cheese-11px {
+  color: var(--macaroni-cheese);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-bubble-gum-11px {
+  color: var(--bubble-gum);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-granny-smith-apple-11px {
+  color: var(--granny-smith-apple);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-cornflower-11px {
+  color: var(--cornflower);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-sonic-silver-18px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-black-haze-28px {
+  color: var(--black-haze);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-sweet-pink-11px {
+  color: var(--sweet-pink);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-black-haze-20px {
+  color: var(--black-haze);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kronaone-normal-paris-daisy-11px {
+  color: var(--paris-daisy);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

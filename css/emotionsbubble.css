@@ -1,0 +1,201 @@
+/* screen - emotionsbubble */
+
+.emotionsbubble {
+  align-items: flex-start;
+  background-color: var(--woodsmoke);
+  display: flex;
+  padding: 0 3.7px;
+  width: 1440px;
+}
+
+.emotionsbubble .overlap-group {
+  height: 1024px;
+  margin-left: 27px;
+  position: relative;
+  width: 1406px;
+}
+
+.emotionsbubble .surprise {
+  cursor: pointer;
+  display: block;
+  height: 631px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 19px;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+  width: 632px;
+}
+
+.emotionsbubble .surprise.animate-enter14 {
+  animation: animate-enter14-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter14-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.emotionsbubble .surprise:hover {
+  transform: rotate(15deg);
+}
+
+.emotionsbubble .love {
+  display: block;
+  height: 703px;
+  left: 651px;
+  position: absolute;
+  top: 0;
+  width: 714px;
+}
+
+.emotionsbubble .love.animate-enter15 {
+  animation: animate-enter15-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+
+@keyframes animate-enter15-frames {
+  from{}
+to{}
+}
+
+.emotionsbubble .fear {
+  display: block;
+  height: 698px;
+  left: 19px;
+  opacity: 0;
+  position: absolute;
+  top: 326px;
+  transform: scale(1.1);
+  width: 667px;
+}
+
+.emotionsbubble .fear.animate-enter16 {
+  animation: animate-enter16-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter16-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.emotionsbubble .anger {
+  display: block;
+  height: 723px;
+  left: 739px;
+  opacity: 0;
+  position: absolute;
+  top: 267px;
+  transform: scale(1.1);
+  width: 667px;
+}
+
+.emotionsbubble .anger.animate-enter17 {
+  animation: animate-enter17-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter17-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.emotionsbubble .title {
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.8;
+  position: absolute;
+  text-shadow: 0px 4px 30px #ffffff33;
+  top: 35px;
+}
+
+.emotionsbubble .about {
+  color: var(--white);
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  left: 1202px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.8;
+  position: absolute;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+  top: 957px;
+}
+
+.emotionsbubble .sadness {
+  display: block;
+  height: 634px;
+  left: 308px;
+  opacity: 0;
+  position: absolute;
+  top: 126px;
+  transform: scale(1.1);
+  width: 700px;
+}
+
+.emotionsbubble .sadness.animate-enter18 {
+  animation: animate-enter18-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter18-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.emotionsbubble .joy {
+  display: block;
+  height: 587px;
+  left: 365px;
+  opacity: 0;
+  position: absolute;
+  top: 437px;
+  transform: scale(1.1);
+  width: 780px;
+}
+
+.emotionsbubble .joy.animate-enter19 {
+  animation: animate-enter19-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter19-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}

@@ -1,0 +1,344 @@
+/* screen - sadness */
+
+.sadness {
+  background-color: var(--woodsmoke);
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+
+.sadness .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 98px;
+  min-height: 167px;
+  position: absolute;
+  top: 35px;
+  width: 1240px;
+}
+
+.sadness .title {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.sadness .line-1 {
+  height: 1px;
+  margin-left: 4px;
+  margin-top: 36px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.sadness .navbar-link-i-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 56px;
+  margin-top: 39px;
+  min-width: 1226px;
+}
+
+.sadness .navbar-link-i-am-alo {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 14px;
+  text-align: center;
+  width: 274px;
+}
+
+.sadness .navbar-link-i-choose-to-respect {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 28px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .navbar-link-i-feel-like-im-being {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 26px;
+  min-height: 28px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .navbar-link-i-thought-i-would-po {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .flex-col-1 {
+  align-items: flex-start;
+  left: 83px;
+  min-height: 329px;
+  top: 660px;
+  width: 320px;
+}
+
+.sadness .i-brought-all-these {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 84px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .i-was-feeling-a-bit {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 8px;
+  margin-top: 88px;
+  min-height: 42px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .x {
+  cursor: pointer;
+  height: 63px;
+  margin-top: 52px;
+  width: 58px;
+}
+
+.sadness .flex-col-2 {
+  align-items: flex-start;
+  gap: 70px;
+  left: 418px;
+  min-height: 137px;
+  top: 832px;
+  width: 924px;
+}
+
+.sadness .flex-row {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  min-width: 909px;
+}
+
+.sadness .i-need-to-learn-to-h {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .i-feel-devastated-when-i-fail {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 26px;
+  min-height: 14px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .i-am-so-jealous-im-a {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 42px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .flex-row-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  gap: 502px;
+  height: 25px;
+  min-width: 649px;
+}
+
+.sadness .percent {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  min-width: 55px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.sadness .about {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  min-width: 92px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.sadness .i-feel-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 102px;
+  min-height: 322px;
+  position: absolute;
+  top: 263px;
+  width: 345px;
+}
+
+.sadness .i-feel-pressure-or-b {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 9.0px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .i-feel-strangely-dis {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 86px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .i-feel-like-that-wou {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 68px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .flex-col-3 {
+  align-items: flex-end;
+  gap: 1px;
+  left: 470px;
+  min-height: 489px;
+  top: 239px;
+  width: 841px;
+}
+
+.sadness .i-feel-like-my-brain {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 117px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.sadness .overlap-group2 {
+  height: 432px;
+  position: relative;
+  width: 841px;
+}
+
+.sadness .overlap-group1 {
+  height: 432px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 770px;
+}
+
+.sadness .i-will-tackle-issues {
+  left: 490px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 53px;
+  width: 280px;
+}
+
+.sadness .sadness-container {
+  height: 652px;
+  left: -110px;
+  position: absolute;
+  top: -110px;
+  width: 720px;
+}
+
+.sadness .sadness-1 {
+  display: block;
+  height: 652px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(1.1);
+  width: 720px;
+}
+
+.sadness .sadness-1.animate-enter9 {
+  animation: animate-enter9-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter9-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.sadness .sadness-2 {
+  left: 310px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 315px;
+}
+
+.sadness .i-really-dont-know-w {
+  left: 592px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 233px;
+  width: 249px;
+}
+
+.sadness .i-just-cant-help-fee {
+  left: 532px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 375px;
+  width: 274px;
+}
+
+.sadness .flex-col-4 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.twinkle {
+  animation: twinkling 1s infinite;
+}

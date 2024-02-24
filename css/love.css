@@ -1,0 +1,303 @@
+/* screen - love */
+
+.love {
+  align-items: center;
+  background-color: var(--woodsmoke);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 34.9px 83px;
+  width: 1440px;
+}
+
+.love .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4.0px;
+  min-height: 298px;
+  width: 1240px;
+}
+
+.love .surname {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.love .line-1 {
+  height: 1px;
+  margin-left: 4.0px;
+  margin-top: 36px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.love .i-feel-very-loved-lt {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 5.0px;
+  margin-top: 55px;
+  min-height: 14px;
+  min-width: 127px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.love .i-feel-very-loved-lt:hover {
+  transform: scale(0.9); 
+}
+
+.love .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 439px;
+  height: 70px;
+  margin-right: 17.0px;
+  margin-top: 87px;
+  min-width: 999px;
+}
+
+.love .i-can-feel-gods-pres {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 56px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.love .i-can-feel-gods-pres:hover {
+  transform: scale(0.9); 
+}
+
+.love .i-wanted-to-creata-a {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.love .flex-row-1 {
+  height: 501px;
+  margin-left: 9.0px;
+  margin-top: 8px;
+  min-width: 1143px;
+}
+
+.love .flex-col-1 {
+  gap: 144px;
+  margin-top: 7.08px;
+  min-height: 270px;
+  width: 356px;
+}
+
+.love .i-feel-in-me-sparkle {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 56px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.love .i-feel-in-me-sparkle:hover {
+  transform: scale(0.9); 
+}
+
+.love .i-am-hopeful-that-no {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 70px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 274px;
+}
+
+.love .i-am-hopeful-that-no:hover {
+  transform: scale(0.9); 
+}
+
+.love .flex-col-2 {
+  gap: 80px;
+  min-height: 501px;
+  width: 787px;
+}
+
+.love .overlap-group2 {
+  height: 365px;
+  position: relative;
+  width: 787px;
+}
+
+.love .overlap-group1 {
+  height: 344px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 628px;
+}
+
+.love .im-feeling-a-bit-rom {
+  cursor: pointer;
+  left: 348px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.love .im-feeling-a-bit-rom:hover {
+  transform: scale(0.9); 
+}
+
+.love .love-container {
+  height: 506px;
+  left: -74px;
+  position: absolute;
+  top: -86px;
+  width: 523px;
+}
+
+.love .love-1 {
+  display: block;
+  height: 506px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 523px;
+}
+
+.love .love-1.animate-enter8 {
+  animation: animate-enter8-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+
+@keyframes animate-enter8-frames {
+  from{}
+to{}
+}
+
+.love .love-2 {
+  left: 235px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 234px;
+}
+
+.love .im-feeling-the-refle {
+  cursor: pointer;
+  left: 538px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 170px;
+  transition: all 0.2s ease;
+  width: 249px;
+}
+
+.love .im-feeling-the-refle:hover {
+  transform: scale(0.9); 
+}
+
+.love .im-taking-it-slow-be {
+  cursor: pointer;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 295px;
+  transition: all 0.2s ease;
+  width: 274px;
+}
+
+.love .im-taking-it-slow-be:hover {
+  transform: scale(0.9); 
+}
+
+.love .i-didnt-feel-his-pre {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 71px;
+  min-height: 56px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.love .i-didnt-feel-his-pre:hover {
+  transform: scale(0.9); 
+}
+
+.love .flex-row-2 {
+  align-self: flex-start;
+  margin-top: 84px;
+  min-width: 1259px;
+}
+
+.love .x {
+  cursor: pointer;
+  height: 63px;
+  width: 58px;
+}
+
+.love .percent {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 560px;
+  min-height: 25px;
+  min-width: 39px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.love .about {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 510px;
+  min-height: 25px;
+  min-width: 92px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.love .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.love .flex-row-3 {
+  align-items: center;
+  display: flex;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.twinkle {
+  animation: twinkling 1s infinite;
+}

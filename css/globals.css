@@ -1,0 +1,278 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Krona+One:400");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/65d917edfe07a1466e464fa6.65d917eefe07a1466e464fa9.VtVkT2L.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.i-feel-very-frantic {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  margin-top: 55px;
+  min-height: 14px;
+  min-width: 294px;
+  text-align: center;
+}
+
+.i-feel-like-my-persp {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 280px;
+}
+
+.i-am-having-a-great {
+  left: 801px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 161px;
+  width: 280px;
+}
+
+.i-feel-tortured-when {
+  left: 51px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 506px;
+  width: 249px;
+}
+
+.i-was-feeling-unsure {
+  left: 692px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 27px;
+  width: 280px;
+}
+
+.i-know-the-feeling-o {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 136px;
+  width: 280px;
+}
+
+.i-times-has-two-aspe {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 336px;
+  width: 280px;
+}
+
+.ive-started-feeling-scared {
+  left: 924px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 322px;
+  width: 249px;
+}
+
+.i-feel-intimidated-o {
+  left: 877px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 489px;
+  width: 249px;
+}
+
+.i-think-i-started-fe {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 25px;
+  min-height: 28px;
+  text-align: center;
+  width: 280px;
+}
+
+.i-feel-as-a-citizen-personally-insulted {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 1.0px;
+  margin-top: 55px;
+  min-height: 14px;
+  min-width: 261px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.i-do-feel-like-im-gonna-go-mad-someday {
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 246px;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.ive-been-feeling-so {
+  cursor: pointer;
+  left: 780px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 89px;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.i-feel-so-bluh-and-bitter-afterward {
+  cursor: pointer;
+  left: 737px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.i-was-not-sure-how-d {
+  left: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 280px;
+}
+
+.i-can-really-feel-th {
+  cursor: pointer;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 131px;
+  transition: all 0.2s ease;
+  width: 280px;
+}
+
+.i-feel-so-selfish-for-even-thinking-it {
+  cursor: pointer;
+  left: 937px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 260px;
+  transition: all 0.2s ease;
+  width: 249px;
+}
+
+.i-wasnt-feeling-so-i {
+  cursor: pointer;
+  left: 885px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 375px;
+  transition: all 0.2s ease;
+  width: 274px;
+}
+
+.i-understand-that-it {
+  cursor: pointer;
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 382px;
+  transition: all 0.2s ease;
+  width: 274px;
+}
+
+.i-am-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 530px;
+  height: 42px;
+  margin-left: 36.0px;
+  margin-top: 13px;
+  min-width: 1028px;
+}
+
+.i-am-feeling-pretty {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 249px;
+}
+
+.i-am-sometime-i-cant {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 42px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 249px;
+}
+
+.i-feel-dissatisfied-inside-myself {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 36px;
+  min-height: 14px;
+  text-align: center;
+  transition: all 0.2s ease;
+  width: 280px;
+}

@@ -1,0 +1,232 @@
+/* screen - index */
+
+.index {
+  align-items: flex-start;
+  background-color: var(--woodsmoke);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 35px 91.0px;
+  width: 1440px;
+}
+
+.index .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 7.0px;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.index .overlap-group-container {
+  height: 825px;
+  margin-top: 46px;
+  position: relative;
+  width: 1253px;
+}
+
+.index .overlap-group {
+  height: 431px;
+  left: 75px;
+  position: absolute;
+  top: -11px;
+  width: 432px;
+}
+
+.index .surprise {
+  cursor: pointer;
+  height: 431px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 432px;
+}
+
+.index .surprise:hover {
+  transform: scale(1.1);
+}
+
+.index .place {
+  left: 157px;
+  top: 192px;
+}
+
+.index .fear-container {
+  height: 523px;
+  left: -8px;
+  position: absolute;
+  top: 176px;
+  width: 574px;
+}
+
+.index .fear {
+  cursor: pointer;
+  height: 523px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 574px;
+}
+
+.index .fear:hover {
+  transform: scale(1.1);
+}
+
+.index .fear-1 {
+  left: 226px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 247px;
+}
+
+.index .love-container {
+  height: 551px;
+  left: 642px;
+  position: absolute;
+  top: -81px;
+  width: 571px;
+}
+
+.index .love {
+  cursor: pointer;
+  display: block;
+  height: 551px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 571px;
+}
+
+.index .love.animate-enter6 {
+  animation: animate-enter6-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+
+@keyframes animate-enter6-frames {
+  from{}
+to{}
+}
+
+.index .love:hover {
+  transform: scale(1.1);
+}
+
+.index .love-1 {
+  left: 253px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 243px;
+}
+
+.index .overlap-group3 {
+  height: 568px;
+  left: 677px;
+  position: absolute;
+  top: 182px;
+  width: 639px;
+}
+
+.index .anger {
+  cursor: pointer;
+  height: 568px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 639px;
+}
+
+.index .anger:hover {
+  transform: scale(1.1);
+}
+
+.index .place-1 {
+  left: 377px;
+  top: 283px;
+}
+
+.index .sadness-container {
+  height: 652px;
+  left: 257px;
+  position: absolute;
+  top: -65px;
+  width: 720px;
+}
+
+.index .sadness {
+  cursor: pointer;
+  height: 652px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 720px;
+}
+
+.index .sadness:hover {
+  transform: scale(1.1);
+}
+
+.index .sadness-1 {
+  left: 286px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 274px;
+}
+
+.index .overlap-group5 {
+  height: 688px;
+  left: 201px;
+  position: absolute;
+  top: 220px;
+  width: 904px;
+}
+
+.index .joy {
+  cursor: pointer;
+  height: 688px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 904px;
+}
+
+.index .joy:hover {
+  transform: scale(1.1);
+}
+
+.index .name {
+  left: 443px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 341px;
+}
+
+.index .about {
+  align-self: flex-end;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 7.0px;
+  margin-top: 16px;
+  min-height: 25px;
+  min-width: 92px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.index .place-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/fear.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #0f0e0e">
+    <input type="hidden" id="anPageName" name="page" value="fear" />
+    <div class="container-center-horizontal">
+      <div class="fear screen">
+        <h1 class="title kronaone-normal-black-haze-28px">FEAR BUBBLE</h1>
+        <img class="line-1" src="img/line-1.svg" alt="Line 1" />
+        <p class="i-feel-very-frantic kronaone-normal-white-11px-2">
+          <span class="kronaone-normal-white-11px">i feel very</span
+          ><span class="kronaone-normal-granny-smith-apple-11px"> frantic</span
+          ><span class="kronaone-normal-white-11px"> and not sure what to do</span>
+        </p>
+        <div class="overlap-group2 kronaone-normal-white-11px-2">
+          <div class="overlap-group1">
+            <p class="i-feel-like-my-persp">
+              <span class="kronaone-normal-white-11px">i feel like my perspective has been </span
+              ><span class="kronaone-normal-granny-smith-apple-11px">shaken </span
+              ><span class="kronaone-normal-white-11px">by my experience in argentina</span>
+            </p>
+            <p class="i-am-having-a-great">
+              <span class="kronaone-normal-white-11px">i am having a great day but i still feel a bit</span
+              ><span class="kronaone-normal-granny-smith-apple-11px"> shaken</span
+              ><span class="kronaone-normal-white-11px"> from the dream</span>
+            </p>
+            <p class="i-feel-tortured-when">
+              <span class="kronaone-normal-white-11px">i feel </span
+              ><span class="kronaone-normal-granny-smith-apple-11px">tortured </span
+              ><span class="kronaone-normal-white-11px">when it comes to the quilting part decisions you know</span>
+            </p>
+            <p class="i-was-feeling-unsure">
+              <span class="kronaone-normal-white-11px">i was feeling </span
+              ><span class="kronaone-normal-granny-smith-apple-11px">unsure</span
+              ><span class="kronaone-normal-white-11px"> about this since i was feeling so much pressure</span>
+            </p>
+            <div class="fear-container">
+              <img class="fear-1 animate-enter7" src="img/fear-2.svg" alt="Fear" />
+              <div class="fear-2 kronaone-normal-sonic-silver-18px">fear</div>
+            </div>
+          </div>
+          <p class="i-know-the-feeling-o">
+            <span class="kronaone-normal-white-11px">i know the feeling of being </span
+            ><span class="kronaone-normal-granny-smith-apple-11px">insecure </span
+            ><span class="kronaone-normal-white-11px"
+              >and the fear of rejection becoming a label you can t scrub away</span
+            >
+          </p>
+          <p class="i-times-has-two-aspe">
+            <span class="kronaone-normal-white-11px">i times has two aspect to have given me feeling </span
+            ><span class="kronaone-normal-granny-smith-apple-11px">uncertain </span
+            ><span class="kronaone-normal-white-11px">very greatly as for</span>
+          </p>
+          <div class="ive-started-feeling-scared">
+            <span class="kronaone-normal-white-11px">ive started feeling </span
+            ><span class="kronaone-normal-granny-smith-apple-11px">scared</span>
+          </div>
+          <p class="i-feel-intimidated-o">
+            <span class="kronaone-normal-white-11px">i feel</span
+            ><span class="kronaone-normal-granny-smith-apple-11px"> intimidated</span
+            ><span class="kronaone-normal-white-11px"> or</span
+            ><span class="kronaone-normal-granny-smith-apple-11px"> worst repulsed</span
+            ><span class="kronaone-normal-white-11px"> by my physical sppearance</span>
+          </p>
+        </div>
+        <p class="i-think-i-started-fe kronaone-normal-white-11px-2">
+          <span class="kronaone-normal-white-11px">i think i started feeling</span
+          ><span class="kronaone-normal-granny-smith-apple-11px"> fearful </span
+          ><span class="kronaone-normal-white-11px">about the future</span>
+        </p>
+        <div class="flex-row">
+          <a href="index.html"><img class="x" src="img/--4.svg" alt="&lt;" /> </a>
+          <div class="percent kronaone-normal-black-haze-20px">11.5%</div>
+          <div class="about kronaone-normal-white-20px">ABOUT</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>

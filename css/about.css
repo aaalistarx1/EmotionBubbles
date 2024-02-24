@@ -1,0 +1,264 @@
+/* screen - about */
+
+.about {
+  align-items: flex-start;
+  background-color: var(--woodsmoke);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 35px 91.0px;
+  width: 1440px;
+}
+
+.about .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 7.0px;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.about .line-1 {
+  align-self: center;
+  height: 1px;
+  margin-top: 36px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.about .overlap-group1 {
+  height: 825px;
+  margin-top: 9px;
+  position: relative;
+  width: 1251px;
+}
+
+.about .overlap-group {
+  height: 989px;
+  left: -8px;
+  position: absolute;
+  top: -81px;
+  width: 1325px;
+}
+
+.about .surprise {
+  cursor: pointer;
+  display: block;
+  height: 431px;
+  left: 83px;
+  opacity: 0;
+  position: absolute;
+  top: 70px;
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+  width: 432px;
+}
+
+.about .surprise.animate-enter {
+  animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.about .surprise:hover {
+  transform: rotate(15deg);
+}
+
+.about .fear {
+  display: block;
+  height: 523px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 257px;
+  transform: scale(1.1);
+  width: 574px;
+}
+
+.about .fear.animate-enter1 {
+  animation: animate-enter1-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter1-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.about .love {
+  display: block;
+  height: 551px;
+  left: 650px;
+  position: absolute;
+  top: 0;
+  width: 571px;
+}
+
+.about .love.animate-enter2 {
+  animation: animate-enter2-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+}
+
+@keyframes animate-enter2-frames {
+  from{}
+to{}
+}
+
+.about .anger {
+  display: block;
+  height: 568px;
+  left: 685px;
+  opacity: 0;
+  position: absolute;
+  top: 263px;
+  transform: scale(1.1);
+  width: 639px;
+}
+
+.about .anger.animate-enter3 {
+  animation: animate-enter3-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter3-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.about .sadness {
+  display: block;
+  height: 652px;
+  left: 265px;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  transform: scale(1.1);
+  width: 720px;
+}
+
+.about .sadness.animate-enter4 {
+  animation: animate-enter4-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter4-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.about .joy {
+  display: block;
+  height: 688px;
+  left: 209px;
+  opacity: 0;
+  position: absolute;
+  top: 300px;
+  transform: scale(1.1);
+  width: 904px;
+}
+
+.about .joy.animate-enter5 {
+  animation: animate-enter5-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter5-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.about .about-emotion-bubble {
+  color: transparent;
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  left: 330px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 107px;
+  width: 590px;
+}
+
+.about .span0 {
+  letter-spacing: 0;
+}
+
+.about .span1 {
+  letter-spacing: 0.12px;
+}
+
+.about .span {
+  color: #ffffffcc;
+  font-size: var(--font-size-l);
+  letter-spacing: 0.04px;
+}
+
+.about .how-it-works-emotion {
+  color: transparent;
+  font-family: var(--font-family-krona_one);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  left: 329px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 319px;
+  width: 590px;
+}
+
+.about .group-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 25px;
+  margin-right: 5.0px;
+  margin-top: 4px;
+  min-width: 256px;
+}
+
+.about .emotion-bubbles {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 25px;
+  min-width: 254px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}

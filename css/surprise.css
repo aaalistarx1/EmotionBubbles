@@ -1,0 +1,167 @@
+/* screen - surprise */
+
+.surprise {
+  align-items: center;
+  background-color: var(--woodsmoke);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 34.9px 83px;
+  width: 1440px;
+}
+
+.surprise .title {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 15px;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.surprise .line-1 {
+  height: 1px;
+  margin-top: 36px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.surprise .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 296px;
+  height: 56px;
+  margin-left: 38.0px;
+  margin-top: 131px;
+  min-width: 856px;
+}
+
+.surprise .flex-row-item {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.surprise .flex-row-1 {
+  align-items: center;
+  display: flex;
+  height: 180px;
+  margin-right: 40.0px;
+  margin-top: 128px;
+  min-width: 1146px;
+}
+
+.surprise .i-could-feel-your-ar {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 13.78px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.surprise .overlap-group {
+  align-items: flex-start;
+  align-self: flex-start;
+  background-image: url(../img/surprise-2.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 381px;
+  margin-left: 122px;
+  margin-top: -100.8px;
+  min-width: 382px;
+  padding: 178.8px 141.8px;
+}
+
+.surprise .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 23px;
+}
+
+.surprise .i-think-about-it-i-s {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 82px;
+  margin-top: 0.22px;
+  min-height: 42px;
+  text-align: center;
+  width: 280px;
+}
+
+.surprise .flex-row-2 {
+  align-items: center;
+  display: flex;
+  gap: 256px;
+  height: 56px;
+  margin-left: 40.0px;
+  margin-top: 96px;
+  min-width: 804px;
+}
+
+.surprise .i-drove-into-the-pre {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 6.0px;
+  min-height: 28px;
+  text-align: center;
+  width: 274px;
+}
+
+.surprise .i-got-a-good-feel-fo {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 56px;
+  text-align: center;
+  width: 274px;
+}
+
+.surprise .flex-row-3 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  margin-top: 172px;
+  min-width: 1259px;
+}
+
+.surprise .x {
+  cursor: pointer;
+  height: 63px;
+  width: 58px;
+}
+
+.surprise .percent {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 559px;
+  min-height: 25px;
+  min-width: 39px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.surprise .about {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 511px;
+  min-height: 25px;
+  min-width: 92px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.twinkle {
+  animation: twinkling 1s infinite;
+}

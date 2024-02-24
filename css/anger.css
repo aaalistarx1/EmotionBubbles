@@ -1,0 +1,178 @@
+/* screen - anger */
+
+.anger {
+  align-items: center;
+  background-color: var(--woodsmoke);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 34.9px 83px;
+  width: 1440px;
+}
+
+.anger .title {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 15px;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.anger .line-1 {
+  height: 1px;
+  margin-top: 36px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.anger .i-feel-as-a-citizen-personally-insulted:hover {
+  transform: scale(0.9); 
+}
+
+.anger .overlap-group2 {
+  height: 518px;
+  margin-left: 6.0px;
+  margin-top: 45px;
+  position: relative;
+  width: 1186px;
+}
+
+.anger .overlap-group1 {
+  height: 501px;
+  left: 62px;
+  position: absolute;
+  top: 17px;
+  width: 1060px;
+}
+
+.anger .overlap-group {
+  height: 568px;
+  left: 221px;
+  position: absolute;
+  top: -15px;
+  width: 639px;
+}
+
+.anger .anger-1 {
+  display: block;
+  height: 568px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(1.1);
+  width: 639px;
+}
+
+.anger .anger-1.animate-enter11 {
+  animation: animate-enter11-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter11-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.anger .place {
+  left: 272px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 277px;
+}
+
+.anger .i-do-feel-like-im-gonna-go-mad-someday:hover {
+  transform: scale(0.9); 
+}
+
+.anger .ive-been-feeling-so:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-feel-so-bluh-and-bitter-afterward:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-can-really-feel-th:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-feel-so-selfish-for-even-thinking-it:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-wasnt-feeling-so-i:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-understand-that-it:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-am-feeling-pretty:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-am-sometime-i-cant:hover {
+  transform: scale(0.9); 
+}
+
+.anger .i-feel-dissatisfied-inside-myself:hover {
+  transform: scale(0.9); 
+}
+
+.anger .flex-row {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  margin-top: 82px;
+  min-width: 1259px;
+}
+
+.anger .x {
+  cursor: pointer;
+  height: 63px;
+  width: 58px;
+}
+
+.anger .percent {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 554px;
+  min-height: 25px;
+  min-width: 50px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.anger .about {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 505px;
+  min-height: 25px;
+  min-width: 92px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.twinkle {
+  animation: twinkling 1s infinite;
+}

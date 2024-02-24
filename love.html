@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/love.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #0f0e0e">
+    <input type="hidden" id="anPageName" name="page" value="love" />
+    <div class="container-center-horizontal">
+      <div class="love screen">
+        <div class="flex-col">
+          <h1 class="surname kronaone-normal-black-haze-28px">LOVE BUBBLE</h1>
+          <img class="line-1" src="img/line-1.svg" alt="Line 1" />
+          <p class="i-feel-very-loved-lt kronaone-normal-white-11px-2">
+            <span class="kronaone-normal-white-11px">i feel very </span
+            ><span class="kronaone-normal-sweet-pink-11px">loved</span
+            ><span class="kronaone-normal-white-11px"> lt</span>
+          </p>
+          <div class="flex-row kronaone-normal-white-11px-2">
+            <p class="i-can-feel-gods-pres">
+              <span class="kronaone-normal-white-11px">i can feel </span
+              ><span class="kronaone-normal-sweet-pink-11px">gods presence</span
+              ><span class="kronaone-normal-white-11px"> in the gentle bending of the trees as the wind blows</span>
+            </p>
+            <p class="i-wanted-to-creata-a">
+              <span class="kronaone-normal-white-11px"
+                >i wanted to creata an ambience of togetherness so we can all feel like we are </span
+              ><span class="kronaone-normal-sweet-pink-11px">supporting</span
+              ><span class="kronaone-normal-white-11px"> each other</span>
+            </p>
+          </div>
+        </div>
+        <div class="flex-row-1 flex-row-3 kronaone-normal-white-11px-2">
+          <div class="flex-col-1 flex-col-3">
+            <p class="i-feel-in-me-sparkle">
+              <span class="kronaone-normal-white-11px">i feel in me </span
+              ><span class="kronaone-normal-sweet-pink-11px">sparkle sweet passion aretha</span
+              ><span class="kronaone-normal-white-11px">
+                love all the hurt away jump to it the jamaica world music festival greatest hits whos zooming who aretha
+                i knew you were waiting for me feat</span
+              >
+            </p>
+            <p class="i-am-hopeful-that-no">
+              <span class="kronaone-normal-white-11px">i am</span
+              ><span class="kronaone-normal-sweet-pink-11px"> hopeful</span
+              ><span class="kronaone-normal-white-11px">
+                that normalcy is just around the corner grateful for how far i have come and feeling very blessed that
+                although this sucks i am here to write about it</span
+              >
+            </p>
+          </div>
+          <div class="flex-col-2 flex-col-3">
+            <div class="overlap-group2">
+              <div class="overlap-group1">
+                <p class="im-feeling-a-bit-rom">
+                  <span class="kronaone-normal-white-11px">im feeling a bit </span
+                  ><span class="kronaone-normal-sweet-pink-11px">romantic</span
+                  ><span class="kronaone-normal-white-11px"> today it seems</span>
+                </p>
+                <div class="love-container">
+                  <img class="love-1 animate-enter8" src="img/love-2.svg" alt="love" />
+                  <div class="love-2 kronaone-normal-sonic-silver-18px">love</div>
+                </div>
+              </div>
+              <p class="im-feeling-the-refle">
+                <span class="kronaone-normal-white-11px">im feeling the reflector</span
+                ><span class="kronaone-normal-sweet-pink-11px">&nbsp;</span
+                ><span class="kronaone-normal-white-11px">la</span
+                ><span class="kronaone-normal-sweet-pink-11px"> gentle </span
+                ><span class="kronaone-normal-white-11px">maya verdadero</span>
+              </p>
+              <p class="im-taking-it-slow-be">
+                <span class="kronaone-normal-white-11px">im </span
+                ><span class="kronaone-normal-sweet-pink-11px">taking it slow</span
+                ><span class="kronaone-normal-white-11px">
+                  because i feel like its really delicate at this stage and i dont wanna mess ne thing up with either
+                  one of them because i do care for both of them a whole lot</span
+                >
+              </p>
+            </div>
+            <p class="i-didnt-feel-his-pre">
+              <span class="kronaone-normal-white-11px"
+                >i didnt feel his presence beside me while sleeping and the gentle arms that </span
+              ><span class="kronaone-normal-sweet-pink-11px">always here</span
+              ><span class="kronaone-normal-white-11px"> around my waist</span>
+            </p>
+          </div>
+        </div>
+        <div class="flex-row-2 flex-row-3">
+          <a href="index.html"><img class="x" src="img/--3.svg" alt="&lt;" /> </a>
+          <div class="percent kronaone-normal-black-haze-20px">9%</div>
+          <div class="about kronaone-normal-white-20px">ABOUT</div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>

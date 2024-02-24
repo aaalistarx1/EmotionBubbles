@@ -1,0 +1,342 @@
+/* screen - joy */
+
+.joy {
+  align-items: flex-start;
+  background-color: var(--woodsmoke);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 34.9px 83px;
+  width: 1440px;
+}
+
+.joy .name {
+  margin-left: 15px;
+  min-height: 35px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.joy .line-1 {
+  align-self: center;
+  height: 1px;
+  margin-top: 36px;
+  object-fit: cover;
+  width: 1236px;
+}
+
+.joy .navbar-link-i-container {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 56px;
+  margin-left: 10.0px;
+  margin-top: 39px;
+  min-width: 1226px;
+}
+
+.joy .navbar-link-im-feeling-quite-mellow {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 14px;
+  text-align: center;
+  width: 274px;
+}
+
+.joy .navbar-link-i-see-how-daring-she {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 28px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .navbar-link-i-have-two-active-bl {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 26px;
+  min-height: 42px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .navbar-link-i-feel-v {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 56px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .overlap-group2 {
+  align-self: flex-end;
+  height: 554px;
+  margin-right: 5px;
+  margin-top: 23px;
+  position: relative;
+  width: 1253px;
+}
+
+.joy .overlap-group1 {
+  height: 554px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 1190px;
+}
+
+.joy .i-feel-that-this-mon {
+  left: 31px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 526px;
+  width: 280px;
+}
+
+.joy .i-was-feeling-pretty {
+  left: 49px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  width: 280px;
+}
+
+.joy .i-see-a-man-who-i-re {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 112px;
+  width: 280px;
+}
+
+.joy .ill-draw-till-i-feel-ecstatic {
+  left: 877px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 402px;
+  width: 280px;
+}
+
+.joy .i-am-grateful-for-my {
+  left: 898px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 479px;
+  width: 274px;
+}
+
+.joy .i-feel-like-i-don-t {
+  left: 910px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 280px;
+}
+
+.joy .overlap-group {
+  height: 717px;
+  left: 142px;
+  position: absolute;
+  top: -72px;
+  width: 904px;
+}
+
+.joy .joy-1 {
+  display: block;
+  height: 717px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scale(1.1);
+  width: 904px;
+}
+
+.joy .joy-1.animate-enter10 {
+  animation: animate-enter10-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes animate-enter10-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.joy .name-1 {
+  left: 443px;
+  position: absolute;
+  top: 341px;
+}
+
+.joy .i-feel-this-song-is {
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 230px;
+}
+
+.joy .i-feel-really-special {
+  left: 27px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 336px;
+}
+
+.joy .i-feel-calm-and-composed {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 445px;
+  width: 280px;
+}
+
+.joy .i-woke-up-this-morning-feeling-fabulous {
+  left: 973px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 115px;
+  width: 280px;
+}
+
+.joy .i-am-feeling-inspired-to-create {
+  left: 1005px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 221px;
+}
+
+.joy .i-feel-absolutely-ho {
+  left: 988px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 304px;
+  width: 249px;
+}
+
+.joy .flex-row {
+  align-items: center;
+  display: flex;
+  height: 42px;
+  margin-left: 8px;
+  margin-top: 69px;
+  min-width: 1236px;
+}
+
+.joy .i-feel-i-was-most-triumphant {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 14px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .i-feel-when-i-eat-an {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 47px;
+  min-height: 28px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .i-was-hanging-out-wi {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 26px;
+  min-height: 42px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .i-feel-and-see-mysel {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 43px;
+  min-height: 42px;
+  text-align: center;
+  width: 280px;
+}
+
+.joy .flex-row-1 {
+  align-items: center;
+  display: flex;
+  margin-top: 36px;
+  min-width: 1259px;
+}
+
+.joy .x {
+  cursor: pointer;
+  height: 63px;
+  width: 58px;
+}
+
+.joy .percent {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 540px;
+  min-height: 25px;
+  min-width: 79px;
+  opacity: 0.8;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.joy .about {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 2.15px;
+  margin-left: 490px;
+  min-height: 25px;
+  min-width: 92px;
+  opacity: 0.8;
+  text-align: right;
+  text-shadow: 0px 4px 30px #ffffff33;
+}
+
+.joy .name-2 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+@keyframes twinkling {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.twinkle {
+  animation: twinkling 1s infinite;
+}

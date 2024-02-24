@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #0f0e0e">
+    <input type="hidden" id="anPageName" name="page" value="about" />
+    <div class="container-center-horizontal">
+      <div class="about screen">
+        <h1 class="title kronaone-normal-black-haze-28px">ABOUT</h1>
+        <img class="line-1" src="img/line-1.svg" alt="Line 1" />
+        <div class="overlap-group1">
+          <div class="overlap-group" style="opacity: 0.3;">
+            <img class="surprise animate-enter" src="img/surprise-1.svg" alt="Surprise"  />
+            <img class="fear animate-enter1" src="img/fear-1.svg" alt="Fear" />
+            <img class="love animate-enter2" src="img/love-1.svg" alt="love"  />
+            <img class="anger animate-enter3" src="img/anger-1.svg" alt="Anger"  />
+            <img class="sadness animate-enter4" src="img/sadness-1.svg" alt="Sadness" />
+            <img class="joy animate-enter5" src="img/joy-2.svg" alt="joy"/>
+            </div>
+          <p class="about-emotion-bubble">
+            <span class="span0 kronaone-normal-white-20px"><br />About Emotion Bubbles<br /></span
+            ><span class="span1 kronaone-normal-white-20px"><br /></span
+            ><span class="span"
+              >Welcome to Emotion Bubbles, a unique web experience that brings the rich tapestry of human emotions to
+              the forefront through the lens of social media. At Emotion Bubbles, we delve into the myriad of feelings
+              expressed in the fleeting moments captured on Twitter, one of the world&#39;s largest stages for public
+              discourse and personal expression.</span
+            >
+          </p>
+          <p class="how-it-works-emotion">
+            <span class="span0 kronaone-normal-white-20px"><br />How it Works<br /></span
+            ><span class="span"
+              ><br />Emotion Bubbles is powered by a dataset of English Twitter messages, meticulously annotated with
+              six fundamental emotions: <br />anger, fear, joy, love, sadness, and surprise.<br /><br />
+              Each emotion is represented by a distinct bubble on our website&#39;s index page, varying in size to
+              reflect the volume of posts associated with that feeling.<br /><br />By clicking on a bubble, users are
+              transported to a details page dedicated to that emotion, offering a closer look at the tweets that define
+              our shared experiences of joy, love, sadness, and more. These pages not only serve as a reflection of our
+              emotional landscape but also as a reminder of the powerful connection and understanding that can emerge
+              from sharing our feelings.</span
+            >
+          </p>
+        </div>
+        <div class="group-1">
+          <a href="index.html"><div class="emotion-bubbles kronaone-normal-white-20px">EMOTION BUBBLES</div> </a>
+        </div>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>
